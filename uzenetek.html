@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Üzenetek</title>
+    <link rel="stylesheet" href="uzenetek.css">
+</head>
+<body>  
+    <div class="navbar">
+        <div class="menu-icon" onclick="toggleMenu()">
+            &#9776;
+        </div>
+        <div id="menu" class="menu">
+            <a href="index.html">Főoldal</a>
+            <a href="lore.html">Bob Lore</a>
+            <a href="uzenetek.html">Üzenetek</a>
+        </div>
+    </div>
+    </div> 
+    <div class="container" id="sor1">
+        <div class="button"><img src="doros.JPG" alt="dani" class="image-button" onclick="playAudio(this)"></div>
+        <div class="button"><img src="vili.JPG" alt="vili" class="image-button" onclick="playAudio(this)"></div>
+        <div class="button"><img src="matrin.JPG" alt="martin" class="image-button" onclick="playAudio(this)"></div>
+        <div class="button"><img src="mogreg.JPG" alt="geri" class="image-button" onclick="playAudio(this)"></div>
+    </div>
+    <div class="container" id="sor2">
+        <div class="button"><img src="laci.JPG" alt="laci" class="image-button" onclick="playAudio(this)"></div>
+        <div class="button"><img src="erik.JPG" alt="erik" class="image-button" onclick="playAudio(this)"></div>
+        <div class="button"><img src="boti.JPG" alt="boti" class="image-button" onclick="playAudio(this)"></div>
+        <div class="button"><img src="tibi.JPG" alt="tibi" class="image-button" onclick="playAudio(this)"></div>
+    </div>
+    <audio id="dani-audio" src="dani-audio.m4a"></audio> 
+    <audio id="martin-audio" src="martin-audio.aac"></audio>
+    <audio id="vili-audio" src="vili-audio.mp3"></audio>
+    <audio id="geri-audio" src="geri-audio.wav"></audio>
+    <audio id="erik-audio" src="erik-audio.ogg"></audio>
+    <audio id="laci-audio" src="laci-audio.ogg"></audio>
+    <audio id="boti-audio" src="boti-audio.ogg"></audio>
+    <audio id="tibi-audio" src="tibi-audio.ogg"></audio>
+    <script src="script.js"></script>
+</body>
+</html>
